@@ -4,6 +4,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scrollbar-color: #cacaca #e7e7e7;
+  scrollbar-width: thin;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 /* Container */
 .container-fluid {
   padding-right: 16px;
