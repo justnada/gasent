@@ -2,7 +2,7 @@ import React from "react";
 
 const CompleteCheckout = () => {
   return (
-    <section className="complete-checkout mx-auto pt-lg-145 pb-lg-145 pt-100 pb-80">
+    <section className="complete-checkout mx-auto pt-lg-100 pb-lg-145 pt-100 pb-80">
       <div className="container-fluid">
         <div className="text-center">
           <svg

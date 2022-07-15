@@ -2,14 +2,14 @@ import React from "react";
 
 const Custom404 = () => {
   return (
-    <section className="not-found mx-auto pt-145 pb-md-212 pb-100">
+    <section className="not-found mx-auto pt-100 pb-100">
       <div className="container-fluid">
         <div className="text-center">
           <svg
             className="img-fluid"
-            width="483"
-            height="300"
-            viewBox="0 0 483 300"
+            width="423"
+            height="250"
+            viewBox="0 0 423 250"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
