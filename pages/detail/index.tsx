@@ -26,7 +26,6 @@ const Detail = () => {
             <div className="col-xl-9 col-lg-8 col-md-7 ps-md-25">
               <TopUpItem type="desktop" />
               <hr />
-
               <TopUpForm />
             </div>
           </div>

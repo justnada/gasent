@@ -1,0 +1,35 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import cx from "classnames";
+
+interface MenuItemProps {
+  title: string;
+  icon: string;
+  active?: boolean;
+}
+
+const MenuItem = (props: Partial<MenuItemProps>) => {
+  const { title, icon, active } = props;
+  const menuItemClass = cx({
+    item: true,
+    "mb-30": true,
+    active,
+  });
+
+  return (
+    <div className={menuItemClass}>
+      <div className="icon me-3">
+        <Image src={`/icon/${icon}.svg`} width={25} height={25} alt="" />
+      </div>
+
+      <p className="item-title m-0">
+        <Link href="">
+          <a className="text-lg text-decoration-none">{title}</a>
+        </Link>
+      </p>
+    </div>
+  );
+};
+
+export default MenuItem;

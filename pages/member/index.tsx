@@ -1,12 +1,12 @@
 import React from "react";
-import ContentOverview from "../../components/organisms/ContentOverview";
+import OverviewContent from "../../components/organisms/OverviewContent";
 import Sidebar from "../../components/organisms/Sidebar";
 
 const Overview = () => {
   return (
     <section className="overview overflow-auto">
       <Sidebar />
-      <ContentOverview />
+      <OverviewContent />
     </section>
   );
 };
