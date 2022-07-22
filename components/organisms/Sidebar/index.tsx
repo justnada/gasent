@@ -27,9 +27,9 @@ const Sidebar = (props: SidebarProps) => {
             link="/member/transactions"
             active={activeMenu === "transactions"}
           />
-          <MenuItem title="Messages" icon="menu-message" link="/member" />
-          <MenuItem title="Card" icon="menu-card" link="/member" />
-          <MenuItem title="Rewards" icon="menu-reward" link="/member" />
+          <MenuItem title="Messages" icon="menu-message" link="#" />
+          <MenuItem title="Card" icon="menu-card" link="#" />
+          <MenuItem title="Rewards" icon="menu-reward" link="#" />
           <MenuItem
             title="Setting"
             icon="menu-setting"

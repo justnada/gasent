@@ -34,6 +34,13 @@
   stroke: #4d17e2;
 }
 
+/* .sidebar .menus .item.active img,
+.sidebar .menus .item:hover img {
+  transition: all 0.2s linear;
+  filter: sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%)
+    contrast(119%);
+} */
+
 .sidebar .menus .item.active::after {
   content: " ";
   border: 2px solid #00baff;

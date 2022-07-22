@@ -21,7 +21,7 @@ const MenuItem = (props: Partial<MenuItemProps>) => {
   return (
     <div className={menuItemClass}>
       <div className="icon me-3">
-        <Image src={`/icon/${icon}.svg`} width={25} height={25} alt="" />
+        <img src={`/icon/${icon}.svg`} width={25} height={25} alt="" />
       </div>
 
       <p className="item-title m-0">
