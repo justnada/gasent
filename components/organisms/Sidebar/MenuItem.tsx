@@ -7,10 +7,11 @@ interface MenuItemProps {
   title: string;
   icon: string;
   active?: boolean;
+  link: string;
 }
 
 const MenuItem = (props: Partial<MenuItemProps>) => {
-  const { title, icon, active } = props;
+  const { title, icon, active, link = "/" } = props;
   const menuItemClass = cx({
     item: true,
     "mb-30": true,
@@ -24,7 +25,7 @@ const MenuItem = (props: Partial<MenuItemProps>) => {
       </div>
 
       <p className="item-title m-0">
-        <Link href="">
+        <Link href={link}>
           <a className="text-lg text-decoration-none">{title}</a>
         </Link>
       </p>
